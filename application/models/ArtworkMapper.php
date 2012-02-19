@@ -58,7 +58,7 @@ class Application_Model_ArtworkMapper
 				'created' => date('Y-m-d H:i:s'),
 		);
 
-		if (null === ($id = $guestbook->getId())) {
+		if (null === ($id = $artbook->getId())) {
 			unset($data['id']);
 			$this->getDbTable()->insert($data);
 		} else {

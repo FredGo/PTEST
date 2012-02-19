@@ -10,7 +10,13 @@ class IndexController extends Zend_Controller_Action
 
     public function indexAction()
     {
-        // action body
+        $artwork = new Application_Model_Artwork();
+        $artwork->setTitle('titre');
+        echo $artwork->getTitle();
+        
+        $artworkMapper = new Application_Model_ArtworkMapper();
+        $artworkMapper->save($artwork);
+    	// action body
     }
     
 

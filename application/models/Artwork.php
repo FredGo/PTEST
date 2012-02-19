@@ -6,7 +6,7 @@
  *
  * LICENSE: Informations sur la licence
  *
- * @copyright  Copyright (c) 2012 Frédéric Gontier
+ * @copyright  Copyright (c) 2012 Frï¿½dï¿½ric Gontier
  * @license    http://framework.zend.com/license   BSD License
  * @version    $Id:$
  * @link       http://framework.zend.com/package/PackageName
@@ -19,7 +19,7 @@
  *
  * Description longue de la classe, s'il y en a une
  *
- * @copyright  Copyright (c) 2012 Frédéric Gontier
+ * @copyright  Copyright (c) 2012 Frï¿½dï¿½ric Gontier
  * @license    http://framework.zend.com/license   BSD License
  * @version    Release: @package_version@
  * @link       http://framework.zend.com/package/PackageName
