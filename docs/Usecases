@@ -1,0 +1,11 @@
+USE CASES
+
+USER account management
+- Register
+- Modify account info
+- Delete
+- Login
+
+Business functionnalities
+
+- Add an artwork
