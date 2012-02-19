@@ -34,7 +34,21 @@ class Application_Model_Artwork
     private $title;
     private $image;
     
-    /*
+    /**
+	 * @return the $id
+	 */
+	public function getId() {
+		return $this->id;
+	}
+
+	/**
+	 * @param field_type $id
+	 */
+	public function setId($id) {
+		$this->id = $id;
+	}
+
+	/*
      private $artType;
     private $media;
     private $image;

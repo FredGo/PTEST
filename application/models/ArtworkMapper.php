@@ -29,7 +29,7 @@ class Application_Model_ArtworkMapper
 {
 	protected $_dbTable;
 
-	public function setDbTable(string $dbTable)
+	public function setDbTable($dbTable)
 	{
 		if (is_string($dbTable)) {
 			$dbTable = new $dbTable();
@@ -58,7 +58,7 @@ class Application_Model_ArtworkMapper
 				'created' => date('Y-m-d H:i:s'),
 		);
 
-		if (null === ($id = $artbook->getId())) {
+		if (null === ($id = $artwork->getId())) {
 			unset($data['id']);
 			$this->getDbTable()->insert($data);
 		} else {

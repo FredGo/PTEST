@@ -12,7 +12,8 @@ class IndexController extends Zend_Controller_Action
     {
         $artwork = new Application_Model_Artwork();
         $artwork->setTitle('titre');
-        echo $artwork->getTitle();
+        $artwork->setAuthorFirstname('authorFirstname');
+        $artwork->setAuthorLastname('authorLastname');
         
         $artworkMapper = new Application_Model_ArtworkMapper();
         $artworkMapper->save($artwork);
